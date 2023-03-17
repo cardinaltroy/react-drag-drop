@@ -1,0 +1,42 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #111111;
+    color: white;
+}
+
+.WindowsFrame{
+    border: 1px solid white;
+    background: black;
+    display: flex;
+    padding: 10px;
+    margin: 50px;
+}
+
+.WindowsItem{
+    border: 1px solid white;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    background: #111111;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+    background: url('https://images.pngnice.com/download/2007/Cube-Transparent-Background.png');
+    background-size: cover;
+}
+.WindowsItem:hover{
+    background: url('https://images.pngnice.com/download/2007/Cube-Transparent-Background.png') rgb(27, 27, 27);
+    background-size: cover;
+    cursor: pointer;
+}
+.WindowsItemSelected{
+    border: 1px solid green;
+}
+
+.WindowsContext{
+    position: fixed;
+    background: black;
+    border: 1px solid grey;
+    width: 200px;
+}
+
