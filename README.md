@@ -6,7 +6,7 @@
 
 Sample of Drag&Drop effect on react
 
-![ScreenShot](screen.png)
+![ScreenShot](screen.jpg)
 
 # <a name="usage">How works</a>
 
